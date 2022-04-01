@@ -538,3 +538,13 @@ Licenses
 5. YOLOv3/YOLOv4 models ([DarkNet](https://github.com/AlexeyAB/darknet)): [YOLO LICENSE](https://github.com/AlexeyAB/darknet/blob/master/LICENSE).
 6. [MODNet](https://github.com/ZHKKKe/MODNet): [Creative Commons Attribution NonCommercial ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) license.
 7. For the rest of the code (developed by jkjung-avt and other contributors): [MIT License](https://github.com/jkjung-avt/tensorrt_demos/blob/master/LICENSE).
+
+
+
+
+NOTE:
+
+To run this repository please use the following commands:
+
+source deepsort_env/bin/activate
+python3 trt_yolo_final_pymysql.py -m yolov4-tiny-synth-mk1 --ub 0 --height 720 --width 1280
