@@ -14,6 +14,8 @@ import tensorrt as trt
 import pycuda.driver as cuda
 
 
+#load a C library for use in the python
+#raise error if the plugin is not found
 try:
     ctypes.cdll.LoadLibrary('./plugins/libyolo_layer.so')
 except OSError as e:
@@ -177,9 +179,16 @@ class HostDeviceMem(object):
 
 def get_input_shape(engine):
     """Get input shape of the TensorRT YOLO engine."""
+    #assigns a variable for the first element in the engine, i.e. the input
     binding = engine[0]
+    #assert that the binding is the input of the engine using the binding_is_input method of engine
     assert engine.binding_is_input(binding)
+    #get dimensions of the binding using the engine.get_binding_shape(bindnig) method
     binding_dims = engine.get_binding_shape(binding)
+
+    # return a tuple of the binding dimensions based on the length of the binding_dims
+    #Why would binding_dims be 4 or 3, as in why would there be a change in number?
+    #Raise errors for bad dimensions of bindings if not 3 or 4
     if len(binding_dims) == 4:
         return tuple(binding_dims[2:])
     elif len(binding_dims) == 3:
@@ -190,12 +199,22 @@ def get_input_shape(engine):
 
 def allocate_buffers(engine):
     """Allocates all host/device in/out buffers required for an engine."""
+    #create input list
     inputs = []
+    #creat output list
     outputs = []
+    #create bindings list
     bindings = []
+    #create output id variable
     output_idx = 0
+    #Open a cuda stream
+    #Creates an asynchronous CUDA stream (that is used for GPU computations ?)
+    #What is this?
+    #Create a stream in which to copy inputs/outputs and run inference.
     stream = cuda.Stream()
+    #assert the length of the engine 3, 4, or 5
     assert 3 <= len(engine) <= 5  # expect 1 input, plus 2~4 outpus
+    #loop through the bindings in the engine and determine the size of each binding and craete buffers
     for binding in engine:
         binding_dims = engine.get_binding_shape(binding)
         if len(binding_dims) == 4:
@@ -206,6 +225,7 @@ def allocate_buffers(engine):
             size = trt.volume(binding_dims) * engine.max_batch_size
         else:
             raise ValueError('bad dims of binding %s: %s' % (binding, str(binding_dims)))
+        #get the data type of the bindings
         dtype = trt.nptype(engine.get_binding_dtype(binding))
         # Allocate host and device buffers
         host_mem = cuda.pagelocked_empty(size, dtype)
@@ -267,28 +287,50 @@ class TrtYOLO(object):
     """TrtYOLO class encapsulates things needed to run TRT YOLO."""
 
     def _load_engine(self):
+        #load the engine based on the model variable
         TRTbin = 'yolo/%s.trt' % self.model
+        #read the engine from file and deserialize it
+        #NOTE: This opens the model in read-binary as f, then calls the TRT.Runtime method as runtime, and returns
+        #the runtime's output from deserializing the cuda engine
         with open(TRTbin, 'rb') as f, trt.Runtime(self.trt_logger) as runtime:
             return runtime.deserialize_cuda_engine(f.read())
 
     def __init__(self, model, category_num=80, letter_box=False, cuda_ctx=None):
         """Initialize TensorRT plugins, engine and conetxt."""
+        #instantiate an object of the class from the arguments for the model, category number, letter_box, and cuda_ctx
+        #What is cuda_ctx ???
+
+        #model file
         self.model = model
+
+        #num of categories from the class_dict
         self.category_num = category_num
+
+        #letter box variable to determine if letter box is being used or not
         self.letter_box = letter_box
+
+        #What is this??
         self.cuda_ctx = cuda_ctx
         if self.cuda_ctx:
             self.cuda_ctx.push()
 
+        #set the inference function based on TRT version
         self.inference_fn = do_inference if trt.__version__[0] < '7' \
                                          else do_inference_v2
+        #create logger for TRT, containing informational messages
         self.trt_logger = trt.Logger(trt.Logger.INFO)
+
+        #load engine using the _load_engine_method
+        #this reads the model and deserializes it to be used as the engine in the rest of the program
         self.engine = self._load_engine()
 
+        #calls the get_input_shape method to get the shape of the model/engine
         self.input_shape = get_input_shape(self.engine)
 
         try:
+            #create context for execution of the engine
             self.context = self.engine.create_execution_context()
+            #assign inputs, outputs, bindings, and steam to what is returned from allocate_buffers
             self.inputs, self.outputs, self.bindings, self.stream = \
                 allocate_buffers(self.engine)
         except Exception as e:

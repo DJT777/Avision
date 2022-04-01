@@ -85,8 +85,13 @@ class BBoxVisualization():
     """
 
     def __init__(self, cls_dict):
+        #create dictionary based on the argument for cls_dict
         self.cls_dict = cls_dict
+        #assign colors to each member of the class dictionary
+        #pass in num of colors argument as the length of the cls_dict
         self.colors = gen_colors(len(cls_dict))
+
+
 
     def draw_bboxes(self, img, boxes, confs, clss):
         """Draw detected bounding boxes on the original image."""

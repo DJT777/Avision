@@ -12,6 +12,7 @@ import argparse
 import cv2
 import pycuda.autoinit  # This is needed for initializing CUDA driver
 
+#import local classes and their functions
 from utils.yolo_classes import get_cls_dict
 from utils.camera import add_camera_args, Camera
 from utils.display import open_window, set_display, show_fps
@@ -54,15 +55,25 @@ def loop_and_detect(cam, trt_yolo, conf_th, vis):
       conf_th: confidence/score threshold for object detection.
       vis: for visualization.
     """
+
+    #full_screen is set to false by default
     full_scrn = False
+    #fps is set at 0 by default
     fps = 0.0
+    #create time variable for measuring the frames per second in real time
     tic = time.time()
+    #while loop to perform inference
     while True:
+        #determine if window is closed or not ????
+        #break the loop if window is closed
         if cv2.getWindowProperty(WINDOW_NAME, 0) < 0:
             break
+        #create img object from a reading of the camera frame
         img = cam.read()
+        #break loop if the camera frame is none
         if img is None:
             break
+        #create bounding box coordinate, detection confidence, and class id from the detect function of the trt_yolo object.
         boxes, confs, clss = trt_yolo.detect(img, conf_th)
         img = vis.draw_bboxes(img, boxes, confs, clss)
         img = show_fps(img, fps)
@@ -81,23 +92,34 @@ def loop_and_detect(cam, trt_yolo, conf_th, vis):
 
 
 def main():
+    #parse arguments
     args = parse_args()
+    #raise errors for lack of arguments, such as the category number and the model file
     if args.category_num <= 0:
         raise SystemExit('ERROR: bad category_num (%d)!' % args.category_num)
     if not os.path.isfile('yolo/%s.trt' % args.model):
         raise SystemExit('ERROR: file (yolo/%s.trt) not found!' % args.model)
 
+    #camera object instantiated with arguments
     cam = Camera(args)
+    #raise error if cameras is not opened
     if not cam.isOpened():
         raise SystemExit('ERROR: failed to open camera!')
 
+    #create list of classes to be detected
     cls_dict = get_cls_dict(args.category_num)
+    #instantiate vis object with class_dict passed as an argument
+    #BBOXVisualization contains code to draw boxes and assign colors to each class
     vis = BBoxVisualization(cls_dict)
+    #instantiate the TtrYOLO object based on the arguments given in the command to start trt_yolo.py
     trt_yolo = TrtYOLO(args.model, args.category_num, args.letter_box)
 
+    #open a window based on camera height and width
     open_window(
         WINDOW_NAME, 'Camera TensorRT YOLO Demo',
         cam.img_width, cam.img_height)
+
+    #loop and perform detections
     loop_and_detect(cam, trt_yolo, conf_th=0.3, vis=vis)
 
     cam.release()
