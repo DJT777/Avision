@@ -11,14 +11,7 @@ python3 trt_yolo_final_pymysql.py -m yolov4-tiny-synth-mk1 --ub 0 --height 720 -
 
 Examples demonstrating how to optimize Caffe/TensorFlow/DarkNet/PyTorch models with TensorRT and do inference on NVIDIA Jetson or x86_64 platforms.  Highlights:
 
-* Run an optimized "MODNet" video matting model at ~21 FPS on Jetson Xavier NX.
 * Run an optimized "yolov4-416" object detector at ~4.6 FPS on Jetson Nano.
-* Run an optimized "yolov3-416" object detector at ~4.9 FPS on Jetson Nano.
-* Run an optimized "ssd_mobilenet_v1_coco" object detector ("trt_ssd_async.py") at 27~28 FPS on Jetson Nano.
-* Run an optimized "MTCNN" face detector at 6~11 FPS on Jetson Nano.
-* Run an optimized "GoogLeNet" image classifier at "~16 ms per image (inference only)" on Jetson Nano.
-* All demos work on Jetson Nano, TX2, AGX Xavier, and Xavier NX.
-* All demos also work on x86_64 PC with NVIDIA GPU(s).  Please refer to [README_x86.md](https://github.com/jkjung-avt/tensorrt_demos/blob/master/README_x86.md) for more information.
 
 Table of contents
 -----------------
