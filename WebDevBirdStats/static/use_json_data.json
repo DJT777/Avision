@@ -1,0 +1,1246 @@
+[
+    {
+        "SPECIES": "WHITE TAILED TROPIC",
+        "COUNT(*)": 5920
+    },
+    {
+        "SPECIES": "TRUMPTER SWAN",
+        "COUNT(*)": 10512
+    },
+    {
+        "SPECIES": "CASPIAN TERN",
+        "COUNT(*)": 1556
+    },
+    {
+        "SPECIES": "SAND MARTIN",
+        "COUNT(*)": 4087
+    },
+    {
+        "SPECIES": "COCKATOO",
+        "COUNT(*)": 10310
+    },
+    {
+        "SPECIES": "CALIFORNIA GULL",
+        "COUNT(*)": 19270
+    },
+    {
+        "SPECIES": "MASKED BOOBY",
+        "COUNT(*)": 15405
+    },
+    {
+        "SPECIES": "ROADRUNNER",
+        "COUNT(*)": 35
+    },
+    {
+        "SPECIES": "NORTHERN FULMAR",
+        "COUNT(*)": 3928
+    },
+    {
+        "SPECIES": "SNOWY OWL",
+        "COUNT(*)": 7917
+    },
+    {
+        "SPECIES": "BALI STARLING",
+        "COUNT(*)": 2212
+    },
+    {
+        "SPECIES": "YELLOW BELLIED FLOWERPECKER",
+        "COUNT(*)": 170
+    },
+    {
+        "SPECIES": "BIRD OF PARADISE",
+        "COUNT(*)": 1249
+    },
+    {
+        "SPECIES": "NORTHERN PARULA",
+        "COUNT(*)": 28
+    },
+    {
+        "SPECIES": "CANARY",
+        "COUNT(*)": 524
+    },
+    {
+        "SPECIES": "EVENING GROSBEAK",
+        "COUNT(*)": 104
+    },
+    {
+        "SPECIES": "HOOPOES",
+        "COUNT(*)": 17
+    },
+    {
+        "SPECIES": "TURQUOISE MOTMOT",
+        "COUNT(*)": 5
+    },
+    {
+        "SPECIES": "COMMON HOUSE MARTIN",
+        "COUNT(*)": 1944
+    },
+    {
+        "SPECIES": "CROWNED PIGEON",
+        "COUNT(*)": 836
+    },
+    {
+        "SPECIES": "KAGU",
+        "COUNT(*)": 322
+    },
+    {
+        "SPECIES": "CAPPED HERON",
+        "COUNT(*)": 490
+    },
+    {
+        "SPECIES": "PURPLE MARTIN",
+        "COUNT(*)": 1242
+    },
+    {
+        "SPECIES": "JABIRU",
+        "COUNT(*)": 685
+    },
+    {
+        "SPECIES": "BULWERS PHEASANT",
+        "COUNT(*)": 2644
+    },
+    {
+        "SPECIES": "STRAWBERRY FINCH",
+        "COUNT(*)": 542
+    },
+    {
+        "SPECIES": "AFRICAN FIREFINCH",
+        "COUNT(*)": 1573
+    },
+    {
+        "SPECIES": "JAVA SPARROW",
+        "COUNT(*)": 3031
+    },
+    {
+        "SPECIES": "PATAGONIAN SIERRA FINCH",
+        "COUNT(*)": 538
+    },
+    {
+        "SPECIES": "KING VULTURE",
+        "COUNT(*)": 123
+    },
+    {
+        "SPECIES": "SANDHILL CRANE",
+        "COUNT(*)": 115
+    },
+    {
+        "SPECIES": "SNOWY EGRET",
+        "COUNT(*)": 181
+    },
+    {
+        "SPECIES": "AMERICAN KESTREL",
+        "COUNT(*)": 27
+    },
+    {
+        "SPECIES": "BANANAQUIT",
+        "COUNT(*)": 695
+    },
+    {
+        "SPECIES": "GOLDEN PHEASANT",
+        "COUNT(*)": 32
+    },
+    {
+        "SPECIES": "LAZULI BUNTING",
+        "COUNT(*)": 45
+    },
+    {
+        "SPECIES": "ORIENTAL BAY OWL",
+        "COUNT(*)": 337
+    },
+    {
+        "SPECIES": "GREEN JAY",
+        "COUNT(*)": 97
+    },
+    {
+        "SPECIES": "ARARIPE MANAKIN",
+        "COUNT(*)": 133
+    },
+    {
+        "SPECIES": "BLACK THROATED WARBLER",
+        "COUNT(*)": 76
+    },
+    {
+        "SPECIES": "CEDAR WAXWING",
+        "COUNT(*)": 736
+    },
+    {
+        "SPECIES": "ASIAN CRESTED IBIS",
+        "COUNT(*)": 373
+    },
+    {
+        "SPECIES": "BARN OWL",
+        "COUNT(*)": 725
+    },
+    {
+        "SPECIES": "RED BROWED FINCH",
+        "COUNT(*)": 312
+    },
+    {
+        "SPECIES": "SCARLET TANAGER",
+        "COUNT(*)": 21
+    },
+    {
+        "SPECIES": "DOUBLE BARRED FINCH",
+        "COUNT(*)": 7484
+    },
+    {
+        "SPECIES": "PURPLE GALLINULE",
+        "COUNT(*)": 117
+    },
+    {
+        "SPECIES": "NORTHERN JACANA",
+        "COUNT(*)": 103
+    },
+    {
+        "SPECIES": "TROPICAL KINGBIRD",
+        "COUNT(*)": 60
+    },
+    {
+        "SPECIES": "VIOLET GREEN SWALLOW",
+        "COUNT(*)": 1248
+    },
+    {
+        "SPECIES": "FLAMINGO",
+        "COUNT(*)": 347
+    },
+    {
+        "SPECIES": "ROYAL FLYCATCHER",
+        "COUNT(*)": 20
+    },
+    {
+        "SPECIES": "PEACOCK",
+        "COUNT(*)": 384
+    },
+    {
+        "SPECIES": "PALILA",
+        "COUNT(*)": 299
+    },
+    {
+        "SPECIES": "GOLDEN PIPIT",
+        "COUNT(*)": 30
+    },
+    {
+        "SPECIES": "BEARDED BELLBIRD",
+        "COUNT(*)": 38
+    },
+    {
+        "SPECIES": "GUINEA TURACO",
+        "COUNT(*)": 544
+    },
+    {
+        "SPECIES": "TREE SWALLOW",
+        "COUNT(*)": 705
+    },
+    {
+        "SPECIES": "PELICAN",
+        "COUNT(*)": 415
+    },
+    {
+        "SPECIES": "COUCHS KINGBIRD",
+        "COUNT(*)": 290
+    },
+    {
+        "SPECIES": "PEREGRINE FALCON",
+        "COUNT(*)": 266
+    },
+    {
+        "SPECIES": "INCA TERN",
+        "COUNT(*)": 86
+    },
+    {
+        "SPECIES": "BLUE HERON",
+        "COUNT(*)": 38
+    },
+    {
+        "SPECIES": "AFRICAN CROWNED CRANE",
+        "COUNT(*)": 27
+    },
+    {
+        "SPECIES": "HARPY EAGLE",
+        "COUNT(*)": 170
+    },
+    {
+        "SPECIES": "PUFFIN",
+        "COUNT(*)": 298
+    },
+    {
+        "SPECIES": "RED FODY",
+        "COUNT(*)": 19
+    },
+    {
+        "SPECIES": "WHITE BROWED CRAKE",
+        "COUNT(*)": 209
+    },
+    {
+        "SPECIES": "RED NAPED TROGON",
+        "COUNT(*)": 221
+    },
+    {
+        "SPECIES": "SRI LANKA BLUE MAGPIE",
+        "COUNT(*)": 99
+    },
+    {
+        "SPECIES": "TAIWAN MAGPIE",
+        "COUNT(*)": 41
+    },
+    {
+        "SPECIES": "RUFOUS KINGFISHER",
+        "COUNT(*)": 62
+    },
+    {
+        "SPECIES": "AMERICAN GOLDFINCH",
+        "COUNT(*)": 30
+    },
+    {
+        "SPECIES": "MASKED LAPWING",
+        "COUNT(*)": 102
+    },
+    {
+        "SPECIES": "BLUE COAU",
+        "COUNT(*)": 666
+    },
+    {
+        "SPECIES": "INDIAN ROLLER",
+        "COUNT(*)": 36
+    },
+    {
+        "SPECIES": "GRAY KINGBIRD",
+        "COUNT(*)": 251
+    },
+    {
+        "SPECIES": "KAKAPO",
+        "COUNT(*)": 130
+    },
+    {
+        "SPECIES": "EURASIAN GOLDEN ORIOLE",
+        "COUNT(*)": 5
+    },
+    {
+        "SPECIES": "SHOEBILL",
+        "COUNT(*)": 119
+    },
+    {
+        "SPECIES": "RAZORBILL",
+        "COUNT(*)": 12178
+    },
+    {
+        "SPECIES": "DOUBLE BRESTED CORMARANT",
+        "COUNT(*)": 928
+    },
+    {
+        "SPECIES": "NORTHERN SHOVELER",
+        "COUNT(*)": 38
+    },
+    {
+        "SPECIES": "PHILIPPINE EAGLE",
+        "COUNT(*)": 15
+    },
+    {
+        "SPECIES": "ORANGE BRESTED BUNTING",
+        "COUNT(*)": 16
+    },
+    {
+        "SPECIES": "TAKAHE",
+        "COUNT(*)": 3
+    },
+    {
+        "SPECIES": "HYACINTH MACAW",
+        "COUNT(*)": 139
+    },
+    {
+        "SPECIES": "GOLDEN CHEEKED WARBLER",
+        "COUNT(*)": 124
+    },
+    {
+        "SPECIES": "GOULDIAN FINCH",
+        "COUNT(*)": 203
+    },
+    {
+        "SPECIES": "RUBY THROATED HUMMINGBIRD",
+        "COUNT(*)": 5
+    },
+    {
+        "SPECIES": "SATYR TRAGOPAN",
+        "COUNT(*)": 9
+    },
+    {
+        "SPECIES": "TEAL DUCK",
+        "COUNT(*)": 111
+    },
+    {
+        "SPECIES": "ELLIOTS  PHEASANT",
+        "COUNT(*)": 79
+    },
+    {
+        "SPECIES": "BLACK-THROATED SPARROW",
+        "COUNT(*)": 78
+    },
+    {
+        "SPECIES": "EMPEROR PENGUIN",
+        "COUNT(*)": 250
+    },
+    {
+        "SPECIES": "NORTHERN RED BISHOP",
+        "COUNT(*)": 35
+    },
+    {
+        "SPECIES": "ROSY FACED LOVEBIRD",
+        "COUNT(*)": 61
+    },
+    {
+        "SPECIES": "GO AWAY BIRD",
+        "COUNT(*)": 187
+    },
+    {
+        "SPECIES": "IMPERIAL SHAQ",
+        "COUNT(*)": 16
+    },
+    {
+        "SPECIES": "BROWN CREPPER",
+        "COUNT(*)": 5672
+    },
+    {
+        "SPECIES": "CHARA DE COLLAR",
+        "COUNT(*)": 27
+    },
+    {
+        "SPECIES": "BROWN NOODY",
+        "COUNT(*)": 1024
+    },
+    {
+        "SPECIES": "MALAGASY WHITE EYE",
+        "COUNT(*)": 395
+    },
+    {
+        "SPECIES": "CALIFORNIA CONDOR",
+        "COUNT(*)": 247
+    },
+    {
+        "SPECIES": "CRESTED NUTHATCH",
+        "COUNT(*)": 168
+    },
+    {
+        "SPECIES": "NORTHERN GANNET",
+        "COUNT(*)": 2799
+    },
+    {
+        "SPECIES": "BLUE THROATED TOUCANET",
+        "COUNT(*)": 7
+    },
+    {
+        "SPECIES": "COMMON FIRECREST",
+        "COUNT(*)": 6
+    },
+    {
+        "SPECIES": "CAPE MAY WARBLER",
+        "COUNT(*)": 82
+    },
+    {
+        "SPECIES": "BORNEAN PHEASANT",
+        "COUNT(*)": 20
+    },
+    {
+        "SPECIES": "CHUKAR PARTRIDGE",
+        "COUNT(*)": 5
+    },
+    {
+        "SPECIES": "QUETZAL",
+        "COUNT(*)": 68
+    },
+    {
+        "SPECIES": "MALACHITE KINGFISHER",
+        "COUNT(*)": 15
+    },
+    {
+        "SPECIES": "BEARDED REEDLING",
+        "COUNT(*)": 4055
+    },
+    {
+        "SPECIES": "RED TAILED HAWK",
+        "COUNT(*)": 6
+    },
+    {
+        "SPECIES": "FRIGATE",
+        "COUNT(*)": 111
+    },
+    {
+        "SPECIES": "KILLDEAR",
+        "COUNT(*)": 43
+    },
+    {
+        "SPECIES": "LILAC ROLLER",
+        "COUNT(*)": 42
+    },
+    {
+        "SPECIES": "LARK BUNTING",
+        "COUNT(*)": 22
+    },
+    {
+        "SPECIES": "AMERICAN PIPIT",
+        "COUNT(*)": 112
+    },
+    {
+        "SPECIES": "DARK EYED JUNCO",
+        "COUNT(*)": 127
+    },
+    {
+        "SPECIES": "HORNED LARK",
+        "COUNT(*)": 1036
+    },
+    {
+        "SPECIES": "HORNED SUNGEM",
+        "COUNT(*)": 3
+    },
+    {
+        "SPECIES": "AMERICAN COOT",
+        "COUNT(*)": 608
+    },
+    {
+        "SPECIES": "AMERICAN AVOCET",
+        "COUNT(*)": 60
+    },
+    {
+        "SPECIES": "EASTERN BLUEBIRD",
+        "COUNT(*)": 76
+    },
+    {
+        "SPECIES": "PURPLE SWAMPHEN",
+        "COUNT(*)": 27
+    },
+    {
+        "SPECIES": "WHITE CHEEKED TURACO",
+        "COUNT(*)": 667
+    },
+    {
+        "SPECIES": "COLLARED ARACARI",
+        "COUNT(*)": 89
+    },
+    {
+        "SPECIES": "RED HEADED DUCK",
+        "COUNT(*)": 1889
+    },
+    {
+        "SPECIES": "BOBOLINK",
+        "COUNT(*)": 54
+    },
+    {
+        "SPECIES": "BLACK THROATED BUSHTIT",
+        "COUNT(*)": 26
+    },
+    {
+        "SPECIES": "MANGROVE CUCKOO",
+        "COUNT(*)": 102
+    },
+    {
+        "SPECIES": "STORK BILLED KINGFISHER",
+        "COUNT(*)": 13
+    },
+    {
+        "SPECIES": "WOOD DUCK",
+        "COUNT(*)": 60
+    },
+    {
+        "SPECIES": "NORTHERN CARDINAL",
+        "COUNT(*)": 869
+    },
+    {
+        "SPECIES": "HORNED GUAN",
+        "COUNT(*)": 12
+    },
+    {
+        "SPECIES": "PAINTED BUNTIG",
+        "COUNT(*)": 57
+    },
+    {
+        "SPECIES": "ROCK DOVE",
+        "COUNT(*)": 70
+    },
+    {
+        "SPECIES": "VICTORIA CROWNED PIGEON",
+        "COUNT(*)": 47
+    },
+    {
+        "SPECIES": "HAWAIIAN GOOSE",
+        "COUNT(*)": 58
+    },
+    {
+        "SPECIES": "PARUS MAJOR",
+        "COUNT(*)": 4
+    },
+    {
+        "SPECIES": "TOUCHAN",
+        "COUNT(*)": 47
+    },
+    {
+        "SPECIES": "BLACKBURNIAM WARBLER",
+        "COUNT(*)": 16
+    },
+    {
+        "SPECIES": "HOUSE FINCH",
+        "COUNT(*)": 82
+    },
+    {
+        "SPECIES": "MOURNING DOVE",
+        "COUNT(*)": 2129
+    },
+    {
+        "SPECIES": "COMMON GRACKLE",
+        "COUNT(*)": 31
+    },
+    {
+        "SPECIES": "GREAT POTOO",
+        "COUNT(*)": 4
+    },
+    {
+        "SPECIES": "GREEN BROADBILL",
+        "COUNT(*)": 1
+    },
+    {
+        "SPECIES": "INDIGO BUNTING",
+        "COUNT(*)": 83
+    },
+    {
+        "SPECIES": "COMMON POORWILL",
+        "COUNT(*)": 200
+    },
+    {
+        "SPECIES": "GRAY CATBIRD",
+        "COUNT(*)": 62
+    },
+    {
+        "SPECIES": "GOLD WING WARBLER",
+        "COUNT(*)": 27
+    },
+    {
+        "SPECIES": "SPOONBILL",
+        "COUNT(*)": 155
+    },
+    {
+        "SPECIES": "FAIRY BLUEBIRD",
+        "COUNT(*)": 18
+    },
+    {
+        "SPECIES": "SAMATRAN THRUSH",
+        "COUNT(*)": 215
+    },
+    {
+        "SPECIES": "OSPREY",
+        "COUNT(*)": 54
+    },
+    {
+        "SPECIES": "BALD EAGLE",
+        "COUNT(*)": 18
+    },
+    {
+        "SPECIES": "COCK OF THE  ROCK",
+        "COUNT(*)": 221
+    },
+    {
+        "SPECIES": "MALEO",
+        "COUNT(*)": 102
+    },
+    {
+        "SPECIES": "CARMINE BEE-EATER",
+        "COUNT(*)": 34
+    },
+    {
+        "SPECIES": "STRIPPED SWALLOW",
+        "COUNT(*)": 161
+    },
+    {
+        "SPECIES": "TIT MOUSE",
+        "COUNT(*)": 578
+    },
+    {
+        "SPECIES": "BORNEAN BRISTLEHEAD",
+        "COUNT(*)": 2
+    },
+    {
+        "SPECIES": "ALEXANDRINE PARAKEET",
+        "COUNT(*)": 102
+    },
+    {
+        "SPECIES": "PYGMY KINGFISHER",
+        "COUNT(*)": 2
+    },
+    {
+        "SPECIES": "CROW",
+        "COUNT(*)": 147
+    },
+    {
+        "SPECIES": "BORNEAN LEAFBIRD",
+        "COUNT(*)": 3
+    },
+    {
+        "SPECIES": "COMMON LOON",
+        "COUNT(*)": 192
+    },
+    {
+        "SPECIES": "SPLENDID WREN",
+        "COUNT(*)": 96
+    },
+    {
+        "SPECIES": "MARABOU STORK",
+        "COUNT(*)": 9
+    },
+    {
+        "SPECIES": "EASTERN ROSELLA",
+        "COUNT(*)": 15
+    },
+    {
+        "SPECIES": "EMU",
+        "COUNT(*)": 14
+    },
+    {
+        "SPECIES": "INDIAN BUSTARD",
+        "COUNT(*)": 71
+    },
+    {
+        "SPECIES": "KOOKABURRA",
+        "COUNT(*)": 1
+    },
+    {
+        "SPECIES": "CURL CRESTED ARACURI",
+        "COUNT(*)": 21
+    },
+    {
+        "SPECIES": "GREAT GRAY OWL",
+        "COUNT(*)": 65
+    },
+    {
+        "SPECIES": "IWI",
+        "COUNT(*)": 76
+    },
+    {
+        "SPECIES": "INDIAN PITTA",
+        "COUNT(*)": 3
+    },
+    {
+        "SPECIES": "GYRFALCON",
+        "COUNT(*)": 154
+    },
+    {
+        "SPECIES": "TOWNSENDS WARBLER",
+        "COUNT(*)": 98
+    },
+    {
+        "SPECIES": "CASSOWARY",
+        "COUNT(*)": 10
+    },
+    {
+        "SPECIES": "HORNBILL",
+        "COUNT(*)": 103
+    },
+    {
+        "SPECIES": "BLACK SKIMMER",
+        "COUNT(*)": 39
+    },
+    {
+        "SPECIES": "WHIMBREL",
+        "COUNT(*)": 99
+    },
+    {
+        "SPECIES": "RAINBOW LORIKEET",
+        "COUNT(*)": 6
+    },
+    {
+        "SPECIES": "BALTIMORE ORIOLE",
+        "COUNT(*)": 13
+    },
+    {
+        "SPECIES": "YELLOW HEADED BLACKBIRD",
+        "COUNT(*)": 217
+    },
+    {
+        "SPECIES": "ALBATROSS",
+        "COUNT(*)": 646
+    },
+    {
+        "SPECIES": "ROUGH LEG BUZZARD",
+        "COUNT(*)": 28
+    },
+    {
+        "SPECIES": "AMERICAN BITTERN",
+        "COUNT(*)": 110
+    },
+    {
+        "SPECIES": "HOUSE SPARROW",
+        "COUNT(*)": 26
+    },
+    {
+        "SPECIES": "CERULEAN WARBLER",
+        "COUNT(*)": 27
+    },
+    {
+        "SPECIES": "D-ARNAUDS BARBET",
+        "COUNT(*)": 10
+    },
+    {
+        "SPECIES": "GILDED FLICKER",
+        "COUNT(*)": 77
+    },
+    {
+        "SPECIES": "TURKEY VULTURE",
+        "COUNT(*)": 9
+    },
+    {
+        "SPECIES": "NOISY FRIARBIRD",
+        "COUNT(*)": 32
+    },
+    {
+        "SPECIES": "BLACK-NECKED GREBE",
+        "COUNT(*)": 19
+    },
+    {
+        "SPECIES": "GANG GANG COCKATOO",
+        "COUNT(*)": 29
+    },
+    {
+        "SPECIES": "RED TAILED THRUSH",
+        "COUNT(*)": 61
+    },
+    {
+        "SPECIES": "MALABAR HORNBILL",
+        "COUNT(*)": 28
+    },
+    {
+        "SPECIES": "ANNAS HUMMINGBIRD",
+        "COUNT(*)": 2
+    },
+    {
+        "SPECIES": "GOLDEN EAGLE",
+        "COUNT(*)": 12
+    },
+    {
+        "SPECIES": "WHITE NECKED RAVEN",
+        "COUNT(*)": 47
+    },
+    {
+        "SPECIES": "PURPLE FINCH",
+        "COUNT(*)": 185
+    },
+    {
+        "SPECIES": "NORTHERN GOSHAWK",
+        "COUNT(*)": 60
+    },
+    {
+        "SPECIES": "CUBAN TODY",
+        "COUNT(*)": 5
+    },
+    {
+        "SPECIES": "BRANDT CORMARANT",
+        "COUNT(*)": 179
+    },
+    {
+        "SPECIES": "SPOON BILED SANDPIPER",
+        "COUNT(*)": 171
+    },
+    {
+        "SPECIES": "STRIPED OWL",
+        "COUNT(*)": 19
+    },
+    {
+        "SPECIES": "RED HEADED WOODPECKER",
+        "COUNT(*)": 5
+    },
+    {
+        "SPECIES": "PARADISE TANAGER",
+        "COUNT(*)": 18
+    },
+    {
+        "SPECIES": "GREEN MAGPIE",
+        "COUNT(*)": 11
+    },
+    {
+        "SPECIES": "POMARINE JAEGER",
+        "COUNT(*)": 407
+    },
+    {
+        "SPECIES": "RED FACED CORMORANT",
+        "COUNT(*)": 29
+    },
+    {
+        "SPECIES": "PARAKETT  AKULET",
+        "COUNT(*)": 11
+    },
+    {
+        "SPECIES": "BLACK & YELLOW bROADBILL",
+        "COUNT(*)": 1
+    },
+    {
+        "SPECIES": "NORTHERN FLICKER",
+        "COUNT(*)": 38
+    },
+    {
+        "SPECIES": "SCARLET CROWNED FRUIT DOVE",
+        "COUNT(*)": 1
+    },
+    {
+        "SPECIES": "WATTLED CURASSOW",
+        "COUNT(*)": 47
+    },
+    {
+        "SPECIES": "NORTHERN MOCKINGBIRD",
+        "COUNT(*)": 232
+    },
+    {
+        "SPECIES": "EURASIAN MAGPIE",
+        "COUNT(*)": 14
+    },
+    {
+        "SPECIES": "YELLOW CACIQUE",
+        "COUNT(*)": 22
+    },
+    {
+        "SPECIES": "VENEZUELIAN TROUPIAL",
+        "COUNT(*)": 4
+    },
+    {
+        "SPECIES": "BANDED BROADBILL",
+        "COUNT(*)": 18
+    },
+    {
+        "SPECIES": "SHORT BILLED DOWITCHER",
+        "COUNT(*)": 43
+    },
+    {
+        "SPECIES": "HELMET VANGA",
+        "COUNT(*)": 22
+    },
+    {
+        "SPECIES": "BEARDED BARBET",
+        "COUNT(*)": 5
+    },
+    {
+        "SPECIES": "HOODED MERGANSER",
+        "COUNT(*)": 2
+    },
+    {
+        "SPECIES": "RUDY KINGFISHER",
+        "COUNT(*)": 37
+    },
+    {
+        "SPECIES": "CRESTED AUKLET",
+        "COUNT(*)": 67
+    },
+    {
+        "SPECIES": "CAPUCHINBIRD",
+        "COUNT(*)": 81
+    },
+    {
+        "SPECIES": "CHESTNET BELLIED EUPHONIA",
+        "COUNT(*)": 2
+    },
+    {
+        "SPECIES": "ANTBIRD",
+        "COUNT(*)": 6
+    },
+    {
+        "SPECIES": "BLACK VULTURE",
+        "COUNT(*)": 21
+    },
+    {
+        "SPECIES": "REGENT BOWERBIRD",
+        "COUNT(*)": 3
+    },
+    {
+        "SPECIES": "ANHINGA",
+        "COUNT(*)": 36
+    },
+    {
+        "SPECIES": "BAY-BREASTED WARBLER",
+        "COUNT(*)": 12
+    },
+    {
+        "SPECIES": "SCARLET IBIS",
+        "COUNT(*)": 71
+    },
+    {
+        "SPECIES": "UMBRELLA BIRD",
+        "COUNT(*)": 15
+    },
+    {
+        "SPECIES": "ENGGANO MYNA",
+        "COUNT(*)": 8
+    },
+    {
+        "SPECIES": "MAGPIE GOOSE",
+        "COUNT(*)": 7
+    },
+    {
+        "SPECIES": "STEAMER DUCK",
+        "COUNT(*)": 14
+    },
+    {
+        "SPECIES": "ELEGANT TROGON",
+        "COUNT(*)": 6
+    },
+    {
+        "SPECIES": "MALLARD DUCK",
+        "COUNT(*)": 4
+    },
+    {
+        "SPECIES": "GREAT KISKADEE",
+        "COUNT(*)": 2
+    },
+    {
+        "SPECIES": "SORA",
+        "COUNT(*)": 17
+    },
+    {
+        "SPECIES": "KIWI",
+        "COUNT(*)": 26
+    },
+    {
+        "SPECIES": "GUINEAFOWL",
+        "COUNT(*)": 7
+    },
+    {
+        "SPECIES": "HOATZIN",
+        "COUNT(*)": 3
+    },
+    {
+        "SPECIES": "GILA WOODPECKER",
+        "COUNT(*)": 6
+    },
+    {
+        "SPECIES": "SPANGLED COTINGA",
+        "COUNT(*)": 4
+    },
+    {
+        "SPECIES": "NICOBAR PIGEON",
+        "COUNT(*)": 3
+    },
+    {
+        "SPECIES": "SCARLET MACAW",
+        "COUNT(*)": 2
+    },
+    {
+        "SPECIES": "GAMBELS QUAIL",
+        "COUNT(*)": 17
+    },
+    {
+        "SPECIES": "GREATOR SAGE GROUSE",
+        "COUNT(*)": 107
+    },
+    {
+        "SPECIES": "HARLEQUIN DUCK",
+        "COUNT(*)": 11
+    },
+    {
+        "SPECIES": "OYSTER CATCHER",
+        "COUNT(*)": 1
+    },
+    {
+        "SPECIES": "WILSONS BIRD OF PARADISE",
+        "COUNT(*)": 3
+    },
+    {
+        "SPECIES": "AMERICAN REDSTART",
+        "COUNT(*)": 8
+    },
+    {
+        "SPECIES": "PINK ROBIN",
+        "COUNT(*)": 28
+    },
+    {
+        "SPECIES": "RED FACED WARBLER",
+        "COUNT(*)": 55
+    },
+    {
+        "SPECIES": "EASTERN TOWEE",
+        "COUNT(*)": 87
+    },
+    {
+        "SPECIES": "RING-NECKED PHEASANT",
+        "COUNT(*)": 5
+    },
+    {
+        "SPECIES": "RED WINGED BLACKBIRD",
+        "COUNT(*)": 2
+    },
+    {
+        "SPECIES": "VULTURINE GUINEAFOWL",
+        "COUNT(*)": 6
+    },
+    {
+        "SPECIES": "BLACK BAZA",
+        "COUNT(*)": 1
+    },
+    {
+        "SPECIES": "BLACK SWAN",
+        "COUNT(*)": 6
+    },
+    {
+        "SPECIES": "SWINHOES PHEASANT",
+        "COUNT(*)": 1
+    },
+    {
+        "SPECIES": "SMITHS LONGSPUR",
+        "COUNT(*)": 71
+    },
+    {
+        "SPECIES": "CHIPPING SPARROW",
+        "COUNT(*)": 4
+    },
+    {
+        "SPECIES": "OVENBIRD",
+        "COUNT(*)": 104
+    },
+    {
+        "SPECIES": "CLARKS NUTCRACKER",
+        "COUNT(*)": 69
+    },
+    {
+        "SPECIES": "LONG-EARED OWL",
+        "COUNT(*)": 20
+    },
+    {
+        "SPECIES": "WHITE THROATED BEE EATER",
+        "COUNT(*)": 7
+    },
+    {
+        "SPECIES": "BROWN THRASHER",
+        "COUNT(*)": 6
+    },
+    {
+        "SPECIES": "RUFUOS MOTMOT",
+        "COUNT(*)": 4
+    },
+    {
+        "SPECIES": "MYNA",
+        "COUNT(*)": 13
+    },
+    {
+        "SPECIES": "CALIFORNIA QUAIL",
+        "COUNT(*)": 19
+    },
+    {
+        "SPECIES": "RED BEARDED BEE EATER",
+        "COUNT(*)": 20
+    },
+    {
+        "SPECIES": "GLOSSY IBIS",
+        "COUNT(*)": 9
+    },
+    {
+        "SPECIES": "GROVED BILLED ANI",
+        "COUNT(*)": 87
+    },
+    {
+        "SPECIES": "GRAY PARTRIDGE",
+        "COUNT(*)": 25
+    },
+    {
+        "SPECIES": "BLUE GROUSE",
+        "COUNT(*)": 8
+    },
+    {
+        "SPECIES": "BARN SWALLOW",
+        "COUNT(*)": 70
+    },
+    {
+        "SPECIES": "ROBIN",
+        "COUNT(*)": 53
+    },
+    {
+        "SPECIES": "COMMON STARLING",
+        "COUNT(*)": 2
+    },
+    {
+        "SPECIES": "GREY PLOVER",
+        "COUNT(*)": 28
+    },
+    {
+        "SPECIES": "CRIMSON SUNBIRD",
+        "COUNT(*)": 6
+    },
+    {
+        "SPECIES": "EASTERN MEADOWLARK",
+        "COUNT(*)": 3
+    },
+    {
+        "SPECIES": "TASMANIAN HEN",
+        "COUNT(*)": 7
+    },
+    {
+        "SPECIES": "FLAME TANAGER",
+        "COUNT(*)": 4
+    },
+    {
+        "SPECIES": "VERMILION FLYCATHER",
+        "COUNT(*)": 20
+    },
+    {
+        "SPECIES": "CINNAMON TEAL",
+        "COUNT(*)": 6
+    },
+    {
+        "SPECIES": "BLACK FRANCOLIN",
+        "COUNT(*)": 3
+    },
+    {
+        "SPECIES": "RED BELLIED PITTA",
+        "COUNT(*)": 1
+    },
+    {
+        "SPECIES": "HIMALAYAN MONAL",
+        "COUNT(*)": 3
+    },
+    {
+        "SPECIES": "VARIED THRUSH",
+        "COUNT(*)": 6
+    },
+    {
+        "SPECIES": "BARRED PUFFBIRD",
+        "COUNT(*)": 11
+    },
+    {
+        "SPECIES": "OKINAWA RAIL",
+        "COUNT(*)": 1
+    },
+    {
+        "SPECIES": "STRIPPED MANAKIN",
+        "COUNT(*)": 1
+    },
+    {
+        "SPECIES": "FIRE TAILLED MYZORNIS",
+        "COUNT(*)": 9
+    },
+    {
+        "SPECIES": "BLACK-CAPPED CHICKADEE",
+        "COUNT(*)": 9
+    },
+    {
+        "SPECIES": "BLONDE CRESTED WOODPECKER",
+        "COUNT(*)": 2
+    },
+    {
+        "SPECIES": "MANDRIN DUCK",
+        "COUNT(*)": 4
+    },
+    {
+        "SPECIES": "BAR-TAILED GODWIT",
+        "COUNT(*)": 4
+    },
+    {
+        "SPECIES": "MIKADO  PHEASANT",
+        "COUNT(*)": 1
+    },
+    {
+        "SPECIES": "SUPERB STARLING",
+        "COUNT(*)": 1
+    },
+    {
+        "SPECIES": "WALL CREAPER",
+        "COUNT(*)": 4
+    },
+    {
+        "SPECIES": "WILD TURKEY",
+        "COUNT(*)": 1
+    },
+    {
+        "SPECIES": "BLACK TAIL CRAKE",
+        "COUNT(*)": 1
+    }
+]

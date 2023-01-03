@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='javascript/billboard.css') }}">
+        <script src="{{ url_for('static', filename='javascript/billboard.js') }}"></script>
+        <script src="{{ url_for('static', filename='javascript/main.js') }}"></script>
+    </head>
+    <body>
+        <div id="chart"></div>
+        <script>
+const jsonfile = JSON.parse({{json_file|tojson}});
+
+
+var jsonData = jsonfile;
+
+var data = {};
+var sites = [];
+jsonData.forEach(function(e) {
+    var elem = [e.SPECIES];
+    elem.push(e.COUNT);
+    sites.push(elem);
+})
+
+console.log(sites);
+
+
+chart = bb.generate({
+    data: {
+        columns:sites,
+        type:'pie'
+    },
+});
+
+        </script>
+    </body>
+</html>

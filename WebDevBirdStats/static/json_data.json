@@ -1,0 +1,130 @@
+[
+    {
+        "SPECIES": "House Sparrow (male)",
+        "COUNT": 20786
+    },
+    {
+        "SPECIES": "Brown-headed Cowbird (female or juvenile)",
+        "COUNT": 22149
+    },
+    {
+        "SPECIES": "Mourning Dove",
+        "COUNT": 63200
+    },
+    {
+        "SPECIES": "House Finch (female)",
+        "COUNT": 2400
+    },
+    {
+        "SPECIES": "House Sparrow (female)",
+        "COUNT": 10762
+    },
+    {
+        "SPECIES": "Red-Bellied Woodpekcer",
+        "COUNT": 324
+    },
+    {
+        "SPECIES": "White-breasted Nuthatch",
+        "COUNT": 24708
+    },
+    {
+        "SPECIES": "Ruby-throated Hummingbird",
+        "COUNT": 4479
+    },
+    {
+        "SPECIES": "Song Sparrow",
+        "COUNT": 93
+    },
+    {
+        "SPECIES": "Indigo Bunting",
+        "COUNT": 139
+    },
+    {
+        "SPECIES": "Chipping Sparrow",
+        "COUNT": 97
+    },
+    {
+        "SPECIES": "Red-winged Blackbird (female)",
+        "COUNT": 2018
+    },
+    {
+        "SPECIES": "Brown-headed Cowbird (male)",
+        "COUNT": 2763
+    },
+    {
+        "SPECIES": "House Wren",
+        "COUNT": 123
+    },
+    {
+        "SPECIES": "American Goldfinch",
+        "COUNT": 36
+    },
+    {
+        "SPECIES": "Blue Jay",
+        "COUNT": 224
+    },
+    {
+        "SPECIES": "Common Grackle",
+        "COUNT": 628
+    },
+    {
+        "SPECIES": "American Crow",
+        "COUNT": 2621
+    },
+    {
+        "SPECIES": "Cardinal-Male",
+        "COUNT": 1090
+    },
+    {
+        "SPECIES": "Eastern Bluebird",
+        "COUNT": 6
+    },
+    {
+        "SPECIES": "House Finch (adult male)",
+        "COUNT": 195
+    },
+    {
+        "SPECIES": "Cardinal-Female",
+        "COUNT": 578
+    },
+    {
+        "SPECIES": "Northern Flicker",
+        "COUNT": 29
+    },
+    {
+        "SPECIES": "Downy Woodpecker",
+        "COUNT": 711
+    },
+    {
+        "SPECIES": "Dark-eyed Junco",
+        "COUNT": 57
+    },
+    {
+        "SPECIES": "Gray Catbird",
+        "COUNT": 409
+    },
+    {
+        "SPECIES": "European Starling (Nonbreeding Adult)",
+        "COUNT": 26
+    },
+    {
+        "SPECIES": "Common Yellowthroat (female or immature)",
+        "COUNT": 149
+    },
+    {
+        "SPECIES": "Carolina Chickadee",
+        "COUNT": 377
+    },
+    {
+        "SPECIES": "Red-winged Blackbird (male)",
+        "COUNT": 19
+    },
+    {
+        "SPECIES": "Carolina Wren",
+        "COUNT": 233
+    },
+    {
+        "SPECIES": "Robin",
+        "COUNT": 42
+    }
+]

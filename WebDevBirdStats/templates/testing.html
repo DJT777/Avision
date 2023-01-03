@@ -1,0 +1,25 @@
+
+var chart = c3.generate({
+    data: {
+        type: 'bar',
+        json: [
+            { 'SPECIES': 'X', 'COUNT(*)': 5920 },
+            { 'SPECIES': 'Y', 'COUNT(*)': 10512 },
+            { 'SPECIES': 'Z', 'COUNT(*)': 1556 }
+        ],
+        keys: {
+            x: 'SPECIES',
+            value: ['COUNT(*)']
+        }
+    },
+    axis: {
+            x: {
+                type: 'category'
+            }
+    },
+    bar: {
+        width: {
+            ratio: 0.5
+        }
+    }
+});
