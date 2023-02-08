@@ -11,7 +11,7 @@ try:
         connection = pymysql.connect(host='127.0.0.1',
                                              database='nano_detections',
                                              user='dylan',
-                                             password='cookies',
+                                             password='pw',
                                              )
         #get class list
         class_array = []
