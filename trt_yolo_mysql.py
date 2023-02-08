@@ -28,7 +28,7 @@ WINDOW_NAME = 'TrtYOLODemo'
 database = mysql.connector.connect(
     host='192.168.1.131',
     user='dylan',
-    password='cookies',
+    password='pw',
     database='bird_detections'
 )
 

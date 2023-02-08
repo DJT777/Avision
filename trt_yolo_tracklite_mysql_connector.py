@@ -35,7 +35,7 @@ WINDOW_NAME = 'TrtYOLODemo'
 '''mySQLConnectionPool = PooledDB(creator = pymysql,
                                host = '192.168.1.131',
                                user = 'dylan',
-                               password = 'cookies',
+                               password = 'pw',
                                database = 'bird_detections',
                                autocommit = True,
                                charset = 'utf8mb4',

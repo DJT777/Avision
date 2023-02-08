@@ -12,7 +12,7 @@ def mysqlconnect():
     conn = pymysql.connect(
         host='localhost',
         user='dylan',
-        password='cookies',
+        password='pw',
         db="nano_detections",
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor)
